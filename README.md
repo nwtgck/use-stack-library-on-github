@@ -1,6 +1,6 @@
 # Practice of using a stack library on GitHub
 
-This is a user of [nwtgck/stack-library-on-github](https://github.com/nwtgck/stack-library-on-github).
+This is a user project of [nwtgck/stack-library-on-github](https://github.com/nwtgck/stack-library-on-github).
 
 
 ## How to run
@@ -10,7 +10,7 @@ stack build
 stack exec use-stack-library-on-github-exe
 ```
 
-## Where the dependencies written
+## Where the dependencies are written
 
 Here is a part of [`stack.yaml`](stack.yaml).
 
@@ -24,7 +24,7 @@ packages:
 ...
 ```
 
-HERE is a part of [`package.yaml`](package.yaml).
+Here is a part of [`package.yaml`](package.yaml).
 
 ```yaml
 ...
@@ -37,7 +37,7 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - stack-library-on-github  <== HERE
+    - stack-library-on-github  # <== HERE
 ...
 ``` 
 
